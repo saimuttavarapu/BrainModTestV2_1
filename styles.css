@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header.hero {
+  background: #f2f7fa;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background-color: #005a9e;
+}
+
+main {
+  padding: 40px 0;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  gap: 30px;
+}
+
+.feature.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature .text {
+  flex: 1;
+}
+
+.feature .image-placeholder {
+  flex: 1;
+  background: #ccc;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  color: #666;
+  border-radius: 10px;
+}
+
+.feature.center-text {
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.testimonials {
+  background: #f9f9f9;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  margin: 15px 0;
+  color: #555;
+}
+
+.team {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+footer {
+  background: #e0e0e0;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+footer button {
+  margin-top: 10px;
+}
